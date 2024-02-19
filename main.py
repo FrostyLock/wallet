@@ -33,7 +33,7 @@ class WalletApp:
             self.balance -= amount
             self.update_balance_label()
         else:
-            print("Insufficient funds!")
+            print("fuck you!")
 
 def main():
     root = tk.Tk()
