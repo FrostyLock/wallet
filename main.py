@@ -5,8 +5,6 @@ class WalletApp:
         self.master = master
         self.master.title("Wallet App")
 
-        self.balance = 0.0
-
         self.balance_label = tk.Label(master, text="Balance: $0.00")
         self.balance_label.pack()
 
