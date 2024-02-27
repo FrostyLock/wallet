@@ -24,6 +24,7 @@ class WalletApp:
         amount = float(input("Enter amount to add: "))
         self.balance += amount
         self.update_balance_label()
+        print(add_money)
 
     def subtract_money(self):
         amount = float(input("Enter amount to subtract: "))
