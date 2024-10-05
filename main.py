@@ -5,7 +5,7 @@ class WalletApp:
         self.master = master
         self.master.title("Wallet App")
 
-        self.balance_label = tk.Label(master, text="Balance: $20.00")
+        self.balance_label = tk.Label(master, text="Balance: $1.00")
         self.balance_label.pack()
 
         self.add_button = tk.Button(master, text="Add Money", command=self.add_money)
